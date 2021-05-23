@@ -23,7 +23,7 @@ hero {
     background-color: #fceb21;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 450px;
+    height: 430px;
 }
 
 hero p {
@@ -42,4 +42,42 @@ hero p {
     position: relative;
     top: 50px;
     left: 40px;
+}
+
+hero h2 {
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 125px;
+    color: white;
+    position: relative;
+    top: 400px;
+    left: 90px;
+}
+
+.mainSection {
+    padding: 350px 250px 200px 270px;
+}
+
+.mainSection h2 {
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 100px;
+    color: white;
+}
+
+.mainSection h3 {
+    font-size: 35px;
+    color: white;
+    font-family: 'Reggae One', cursive;
+    margin: 10px 0;
+}
+
+.mainSection p {
+    font-size: 20px;
+    font-family: 'Reggae One', cursive;
+    color: white;
+    margin: 40px 0;
+    line-height: 35px;
+}
+
+.mainSection span {
+    text-decoration: solid white;
 }
