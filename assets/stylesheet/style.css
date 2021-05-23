@@ -79,5 +79,20 @@ hero h2 {
 }
 
 .mainSection span {
-    text-decoration: solid white;
+    text-decoration: underline;
+}
+
+.btn {
+    height: 60px;
+    width: 180px;
+    background-color: #fceb21;
+    color: #1f203a;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.btn a {
+    text-decoration: none;
 }
