@@ -1,3 +1,38 @@
+
 body {
     background-color: #1f203a;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 30px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+
+h1, ul li a {
+    color: white;
+    font-size: 25px;
+}
+
+hero {
+    background-color: #fceb21;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+hero p {
+    line-height: 2;
+    font-size: 25px;
+    text-align: center;
+    padding: 70px 100px 140px 25px;
+}
+
+hero img{
+    height: 400px;
+    width: 250px;
 }
