@@ -23,6 +23,7 @@ hero {
     background-color: #fceb21;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 450px;
 }
 
 hero p {
@@ -32,7 +33,13 @@ hero p {
     padding: 70px 100px 140px 25px;
 }
 
-hero img{
-    height: 400px;
-    width: 250px;
+.heroImg{
+    background: url(../images/tay.jpg);
+    height: 530px;
+    width: 450px;
+    margin: 0 auto;
+    background-size: cover;
+    position: relative;
+    top: 50px;
+    left: 40px;
 }
