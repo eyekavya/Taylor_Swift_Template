@@ -76,23 +76,35 @@ hero h2 {
     color: white;
     margin: 40px 0;
     line-height: 35px;
+    padding-bottom: 20px;
 }
 
 .mainSection span {
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    position: relative;
+}
+
+.mainSection span::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    border-width: 0 0 1px;
+    border-style: solid;
 }
 
 .btn {
-    height: 60px;
-    width: 180px;
-    background-color: #fceb21;
+    background: #fceb21;
     color: #1f203a;
-    text-align: center;
-    padding: 15px;
+    text-decoration: none;
+    padding: 20px 40px;
     font-size: 16px;
-    font-weight: 800;
+    font-weight: bold;
+    margin-top: 100px;
 }
 
-.btn a {
-    text-decoration: none;
+.gallery {
+    display: grid;
+    grid
 }
