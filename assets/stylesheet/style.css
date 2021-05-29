@@ -185,6 +185,7 @@ hero h2 {
     grid-template-columns: repeat(2, 1fr);
     background: #fceb21;
     margin: 0 150px;
+    padding-top: 100px;
 }
 
 .nameForm input, .mail input, textarea {
@@ -203,4 +204,30 @@ hero h2 {
     padding: 15px 45px;
 }
 
+.contactRight h2{
+    font-size: 45px;
+    padding-left: 10px;
+    font-family: 'Fredoka One', cursive;
+    color: #1f203a;
+}
 
+.fontawesome i{
+    font-size: 30px;
+    margin: 25px;
+    color: #1f203a;
+    padding-bottom: 70px;
+}
+
+.contactRight h3 {
+    font-size: 35px;
+    color: #1f203a;
+    padding: 10px 42px;
+}
+/* 
+.sampleText {
+    height: 200px;
+} */
+.sampleText p {
+    color: white;
+    text-align: center;
+}
