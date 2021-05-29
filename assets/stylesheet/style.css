@@ -223,11 +223,13 @@ hero h2 {
     color: #1f203a;
     padding: 10px 42px;
 }
-/* 
-.sampleText {
-    height: 200px;
-} */
-.sampleText p {
+
+.sampleText p, footer p {
     color: white;
     text-align: center;
+    padding: 70px 200px;
+}
+
+footer {
+    background: grey;
 }
